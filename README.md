@@ -1,2 +1,4 @@
 # Bear
-A script which converts a Japanese sentence into Kuma-san's spoken language.
+This script adds "くま" to a suitable place in a Japanese sentence so that it becomes to sound like it is spoken by a bear.
+
+## examples
