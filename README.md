@@ -1,9 +1,13 @@
 # Bear
 This script adds "くま" to a suitable place in a Japanese sentence so that it becomes to sound like it is spoken by a bear.
 
-## examples
+## Basic usage
+`$ python3 main.py arg`
+arg is a japanese sentence which you would like.
 
-`
+## Examples
+
+```
 kumasan@kumasan-VivoBook-12-ASUS-Laptop-E203MAS-E203MA:~/Bear$ python3 main.py  そうなの？
 そうなのくま？
 kumasan@kumasan-VivoBook-12-ASUS-Laptop-E203MAS-E203MA:~/Bear$ python3 main.py  いまどこいるの？
@@ -16,8 +20,8 @@ kumasan@kumasan-VivoBook-12-ASUS-Laptop-E203MAS-E203MA:~/Bear$ python3 main.py  
 今日はもう眠いくま。
 kumasan@kumasan-VivoBook-12-ASUS-Laptop-E203MAS-E203MA:~/Bear$ python3 main.py  すもももももももものうち
 すもももももももものうちくま
-`
+```
 ## Dependency
 You need to install mecab-python3 and  unidic-lite.
-`pip install mecab-python3`
-`pip install unidic-lite`
+```pip install mecab-python3```
+```pip install unidic-lite```
