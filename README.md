@@ -9,6 +9,8 @@ arg is a japanese sentence which you would like.
 ## Examples
 
 ```
+$ python3 main.py 
+例文が渡されていません。強制終了します。
 $ python3 main.py  そうなの？
 そうなのくま？
 $ python3 main.py  いまどこいるの？
