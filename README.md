@@ -3,25 +3,28 @@ This script adds "くま" to a suitable place in a Japanese sentence so that it 
 
 ## Basic usage
 `$ python3 main.py arg`
+
 arg is a japanese sentence which you would like.
 
 ## Examples
 
 ```
-kumasan@kumasan-VivoBook-12-ASUS-Laptop-E203MAS-E203MA:~/Bear$ python3 main.py  そうなの？
+$ python3 main.py  そうなの？
 そうなのくま？
-kumasan@kumasan-VivoBook-12-ASUS-Laptop-E203MAS-E203MA:~/Bear$ python3 main.py  いまどこいるの？
+$ python3 main.py  いまどこいるの？
 いまどこいるのくま？
-kumasan@kumasan-VivoBook-12-ASUS-Laptop-E203MAS-E203MA:~/Bear$ python3 main.py  お腹が空いた。。
+$ python3 main.py  お腹が空いた。。
 お腹が空いたくま。。
-kumasan@kumasan-VivoBook-12-ASUS-Laptop-E203MAS-E203MA:~/Bear$ python3 main.py 6月に引っ越し予定なんだ。
+$ python3 main.py 6月に引っ越し予定なんだ。
 6月に引っ越し予定なんだくま。
-kumasan@kumasan-VivoBook-12-ASUS-Laptop-E203MAS-E203MA:~/Bear$ python3 main.py  今日はもう眠い。
+$ python3 main.py  今日はもう眠い。
 今日はもう眠いくま。
-kumasan@kumasan-VivoBook-12-ASUS-Laptop-E203MAS-E203MA:~/Bear$ python3 main.py  すもももももももものうち
+$ python3 main.py  すもももももももものうち
 すもももももももものうちくま
 ```
 ## Dependency
 You need to install mecab-python3 and  unidic-lite.
+
 ```pip install mecab-python3```
+
 ```pip install unidic-lite```
